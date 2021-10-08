@@ -4,7 +4,7 @@
     <button  type="button" @click='connect()'>Connet Wallet</button>
     </div>
     <div v-if="isConnect">
-    <span>Connected !</span>
+    <span>Connected ! your address is {{ sender }}</span>
     </div>
     <br>
     <br>
@@ -22,6 +22,9 @@
     <br>
     <br>
     <span>donate : terra1rvg5x3uhqlel0dv9zwh53pcrt5hk9ykpq7u3gd</span>
+    <br>
+    <br>
+    <span><a href="https://github.com/athlona64/cw721transfer">Github</a></span>
 
  
   </div>
@@ -48,7 +51,7 @@ export default {
       }
     },
     mounted() {
-   
+
 
     },
     methods : {
