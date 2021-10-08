@@ -1,7 +1,7 @@
 <template>
     <div class="hello">
     <div v-if="!isConnect">
-    <button  type="button" @click='connect()'>Connet Wallet</button>
+    <button  type="button" @click='connect()'>Connect Wallet</button>
     </div>
     <div v-if="isConnect">
     <span>Connected ! your address is {{ sender }}</span>
