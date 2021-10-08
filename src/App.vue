@@ -1,5 +1,5 @@
 <template>
-  <span><h2>Terrapin Transfer</h2></span>
+  <span><h2>CW721 Transfer for Lunatics</h2></span>
   <HelloWorld msg="Welcome to Your Vue.js App"/>
 </template>
 

@@ -8,6 +8,14 @@
     </div>
     <br>
     <br>
+
+    Choose NFT
+    <select v-model="contractAddr">
+        <option value="terra1f89xq3qhu98v4jch4y5xcrkhl9gytrne99x74t" selected="true">Terrapin</option>
+        <option value="terra1er46zkkqu4fvjdkh6pyw3hprm68c7sdu9yt3e5">TerraNova</option>
+    </select>
+    <br>
+    <br>
                 <input v-model="tokenid" placeholder="token_id" size="100" />
                 <br>
                 <br>
@@ -45,7 +53,8 @@ export default {
           extension:'',
           recipient:'',
           isConnect: false,
-          sender:''
+          sender:'',
+          contractAddr:''
      
    
       }
@@ -79,7 +88,7 @@ export default {
 
       const execute = new MsgExecuteContract(
         this.sender, // sender
-        'terra1f89xq3qhu98v4jch4y5xcrkhl9gytrne99x74t', // contract account address
+        this.contractAddr, // contract account address
         {
           "transfer_nft": {
               "recipient": this.recipient,
