@@ -54,7 +54,7 @@ export default {
           recipient:'',
           isConnect: false,
           sender:'',
-          contractAddr:''
+          contractAddr:'terra1f89xq3qhu98v4jch4y5xcrkhl9gytrne99x74t'
      
    
       }
