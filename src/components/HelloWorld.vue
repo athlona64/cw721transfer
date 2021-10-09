@@ -13,6 +13,8 @@
     <select v-model="contractAddr">
         <option value="terra1f89xq3qhu98v4jch4y5xcrkhl9gytrne99x74t" selected="true">Terrapin</option>
         <option value="terra1er46zkkqu4fvjdkh6pyw3hprm68c7sdu9yt3e5">TerraNova</option>
+        <option value="terra103z9cnqm8psy0nyxqtugg6m7xnwvlkqdzm4s4k">Galatic Punk</option>
+        <option value="terra13qrc9j00lk3x0rvpptzdmwtckfj64d5g6xnrv9">Spaceloot</option>
     </select>
     <br>
     <br>
